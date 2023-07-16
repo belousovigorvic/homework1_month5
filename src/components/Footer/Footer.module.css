@@ -1,0 +1,11 @@
+footer {
+  width: 100%;
+  background: linear-gradient(to bottom, #999999 0%, #887575 100%);
+  padding: 10px 0px;
+  
+}
+
+.footer__ul {
+  display: flex;
+  justify-content: space-around;
+}

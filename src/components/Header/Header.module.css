@@ -1,0 +1,22 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #999999 0%, #758882 100%);
+}
+
+.header__logo {
+  width: 50px;
+}
+
+.header__ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.header__link {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
