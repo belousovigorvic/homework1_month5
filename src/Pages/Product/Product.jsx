@@ -1,8 +1,11 @@
 import classes from "./Product.module.css";
 import Container from "../../components/Container/Container";
 import { useLocation } from "react-router-dom";
+
 const Product = () => {
+  
   const { state } = useLocation();
+
   return (
     <Container>
       <div className={classes.product}>
